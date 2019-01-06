@@ -11,9 +11,10 @@ class FeldsRouteMatcherExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
-        $container->register('felds.route_matcher.extension', RouteMatcherExtension::class)
+        $container->register(RouteMatcherExtension::class)
             ->setPrivate(true)
-            ->addTag('twig.extension')
+            ->setAutowired(true)
+            ->setAutoconfigured(true)
         ;
     }
 }
