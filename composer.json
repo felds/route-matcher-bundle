@@ -1,0 +1,12 @@
+{
+    "name": "felds/route-matcher-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felds Liscia",
+            "email": "dev@felds.com.br"
+        }
+    ],
+    "require": {}
+}
