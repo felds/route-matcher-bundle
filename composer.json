@@ -9,9 +9,9 @@
         }
     ],
     "require": {
-        "symfony/dependency-injection": "^4.2",
-        "symfony/http-kernel": "^4.2",
-        "twig/twig": "^2.6"
+        "symfony/dependency-injection": "*",
+        "symfony/http-kernel": "*",
+        "twig/twig": "*"
     },
     "autoload": {
         "psr-4": {
