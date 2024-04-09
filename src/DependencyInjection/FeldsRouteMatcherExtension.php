@@ -12,7 +12,6 @@ class FeldsRouteMatcherExtension extends Extension
     public function load(array $configs, ContainerBuilder $container)
     {
         $container->register(RouteMatcherExtension::class)
-            ->setPrivate(true)
             ->setAutowired(true)
             ->setAutoconfigured(true)
         ;
