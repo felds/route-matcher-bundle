@@ -9,7 +9,7 @@ use Symfony\Component\DependencyInjection\Extension\Extension;
 
 class FeldsRouteMatcherExtension extends Extension
 {
-    public function load(array $configs, ContainerBuilder $container)
+    public function load(array $configs, ContainerBuilder $container): void
     {
         $container->register(RouteMatcherExtension::class)
             ->setAutowired(true)
